@@ -148,7 +148,7 @@ st.sidebar.write(account.address)
 # Write the returned ether balance to the sidebar
 
 balance_eth = get_balance(w3, account.address)
-st.sidebar.write(balance_eth)
+st.sidebar.write("Balance:", balance_eth)
 
 ##########################################
 
@@ -245,7 +245,7 @@ wage = hourly_rate * hours
 # @TODO
 # Write the `wage` calculation to the Streamlit sidebar
 
-st.sidebar.write(wage)
+st.sidebar.write("Wage:", wage)
 
 ##########################################
 # Step 2 - Part 2:
